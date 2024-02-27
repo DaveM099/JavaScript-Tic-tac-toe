@@ -1,0 +1,2 @@
+# JavaScript Tic tac toe
+ My JavaScript Tic tact toe game was developed during the course, with many low to high-level enhancements such as a 4x4 grid, best of 3 play, timers, main menu screen, cosmetic enhancements, option to change game icons by selecting a theme, different game difficulties, as well as an AI opponent option.  For more info visit the Word document report also attached in Projects section, containing the game walkthrough, code, and functionality.
