@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="noughts.css">
+</head>
+
+<body>
+    <section class="menu-screen">
+        <div class="game--title">
+            <h1>Tic tac toe</h1>
+            <button class="start">Start Game!</button>
+        </div>
+
+        <section id="main_menu">
+            <div class="setting_opt">
+                <h2>Choose your opponent!</h2>
+                <label>
+                    <input type="radio" name="opponent" value="2 Player" checked> 2 Player
+                </label> <br>
+                <label>
+                    <input type="radio" name="opponent" value="computer"> Computer
+                </label><br>
+            </div>
+            <div class="setting_opt">
+                <h2>Choose your difficulty!</h2>
+                <label>
+                    <input type="radio" name="difficulty" value="easy"> Easy
+                </label> <br>
+                <label>
+                    <input type="radio" name="difficulty" value="medium" checked> Medium
+                </label> <br>
+                <label>
+                    <input type="radio" name="difficulty" value="hard"> Hard
+                </label> <br>
+            </div>
+        </section>
+
+
+    </section>
+    <section class="game-screen" style="display:none;">
+        <div class="game-info">
+            <h1 class="game--title">Tic tac toe</h1>
+            <div class="timer">Player X's timer: <span id="timerX">60</span>seconds</div>
+            <div class="timer">Player O's timer: <span id="timerO">60</span>seconds</div>
+
+            <h2 class="game--status"></h2>
+            <h2 class="round--status"></h2>
+            
+            <div class="game--container">
+                <div data-cell-index="0" class="cell"></div>
+                <div data-cell-index="1" class="cell"></div>
+                <div data-cell-index="2" class="cell"></div>
+                <div data-cell-index="3" class="cell"></div>
+                <div data-cell-index="4" class="cell"></div>
+                <div data-cell-index="5" class="cell"></div>
+                <div data-cell-index="6" class="cell"></div>
+                <div data-cell-index="7" class="cell"></div>
+                <div data-cell-index="8" class="cell"></div>
+                <div data-cell-index="9" class="cell"></div>
+                <div data-cell-index="10" class="cell"></div>
+                <div data-cell-index="11" class="cell"></div>
+                <div data-cell-index="12" class="cell"></div>
+                <div data-cell-index="13" class="cell"></div>
+                <div data-cell-index="14" class="cell"></div>
+                <div data-cell-index="15" class="cell"></div>
+    
+    
+    
+            </div>
+    
+        </div>
+
+        <section class="Game--settings">
+
+            <div class="Game--score">
+                <h2>Game scores:</h2>
+                <h3>Best of 3</h3>
+                <p>Games Played: <span id="Games">0</span></p>
+                <p>Player X wins: <span id="Win01">0</span></p>
+                <p>Player O wins: <span id="Win02">0</span></p>
+                <p>Game Draws: <span id="GameDraw">0</span></p>
+
+
+            </div>
+
+            <div class="Select--Theme">
+                <h3>Change theme:</h3>
+                <label>
+                    <input type="radio" name="theme" value="classic" onclick="url('clasic.png')" checked> Classic Theme
+                </label> <br>
+                <label>
+                    <input type="radio" name="theme" value="minion" onclick="url('back.jpg')"> Minion Theme
+                </label><br>
+                <label>
+                    <input type="radio" name="theme" value="star" onclick="url('stars.jpg')"> Star Wars Theme
+                </label><br>
+
+
+                <button class="game--restart">Retart Game!</button>
+                <button class="reset--score">Reset Score</button>
+                <button class="returnbtn">Return to main Menu</button>
+
+            </div>
+
+        </section>
+        
+        <div class="clearfix"></div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <script src="noughts.js"></script>
+
+
+</body>
+<!--
+<footer >
+    <a target="_blank" href="https://icons8.com/icon/35734/darth-vader">Star Wars</a> icon by <a target="_blank"
+        href="https://icons8.com">Icons8</a>
+    <a target="_blank" href="https://icons8.com/icon/39423/r2-d2">R2-D2</a> icon by <a target="_blank"
+        href="https://icons8.com">Icons8</a>
+</footer>
+-->
+
+
+</html>

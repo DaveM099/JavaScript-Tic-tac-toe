@@ -1,0 +1,175 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: rgb(70, 70, 85);
+    background: linear-gradient(90deg, rgba(70, 70, 85, 1) 0%, rgba(210, 210, 233, 1) 35%, rgba(110, 110, 119, 1) 100%);
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    text-align: center;
+    margin-top:20px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.Game--settings .returnbtn{
+    margin-top: 70px;
+}
+
+.game--status {
+    margin: 20px;
+    font-size: 24px;
+    color:#210af7;
+}
+
+
+.game--container {
+    
+    width: 65%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* change to (4, 1fr) for equal width columns*/
+    width: 406px;
+    /*changed to accomodate space of 4x4 grid*/
+    margin: 50px auto;
+  
+}
+.game-info{
+   float: left;
+   margin:50px auto;
+   margin-top: 2px;
+   margin-left: 35%;
+}
+
+.Game--settings {
+    float:left;
+    width: 25%;
+    height: 725px;
+    margin: 5px;
+    margin-left: 100px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+
+.Select--Theme {
+    height: 250px;
+    margin-top: 45px !important;
+    margin: 5px;
+
+}
+
+.Select--Theme input {
+    padding: 5px;
+    margin: 12px;
+}
+
+.Select--Theme button,
+.game--restart {
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+
+
+.menu-screen .start{
+    display: block;
+    width: 350px;
+    height:120px;
+    background-color: transparent;
+    border:none;
+    text-align: center;
+    margin: 0px auto;
+    margin-top:60px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    line-height: 105px;
+    color:#00538C;
+    transition:all 1s;
+}
+
+.game--title{
+    font-family:cursive;
+    font-size: 41px;
+    letter-spacing: 2px;
+    text-shadow: rgb(17, 236, 240) 1px 0 10px;
+}
+
+#main_menu{
+    width:500px;
+    height:450px;
+    border:5px solid white;
+    box-shadow: 0px 0px 2px gray;
+    margin:20px auto;
+    text-align: center;
+}
+
+#main_menu h2{
+    font-size: 25px;
+}
+
+#main_menu .setting_opt{
+  vertical-align: center;
+}
+
+
+#main_menu input{
+    padding:15px;
+    margin: 5px auto;
+    margin-top: 30px;
+}
+
+#main_menu label{
+    font-size: 24px;
+    cursor: pointer;
+}
+.start:hover{
+    background-color: #333;
+    border: 10px solid #37BCF9;
+    border-radius: 240px;
+    box-shadow: 0px 0px 10px gray;
+    color:white ;
+    text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black;
+}
+
+
+.round--status {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+.music_btn {
+   text-align: center;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+
+.cell {
+    font-family: "Permanent marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+
+    line-height: 100px;
+    font-size: 60px;
+}
